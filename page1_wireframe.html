@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page 1 Wireframe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            height: 70px;
+            background: #b7b8e6;
+            border: 1px solid #999;
+            margin-bottom: 20px;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .kpi-strip {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .kpi {
+            flex: 1;
+            height: 90px;
+            border: 1px solid #999;
+            background: white;
+            padding: 10px;
+        }
+
+        .filter-area {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .filter {
+            width: 180px;
+            height: 40px;
+            border: 1px solid #999;
+            background: white;
+            padding: 10px;
+        }
+
+        .chart-area {
+            display: flex;
+            gap: 20px;
+        }
+
+        .chart {
+            flex: 1;
+            height: 300px;
+            border: 1px solid #999;
+            background: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Zone -->
+    <div class="header">
+        Regional Life Insurance
+    </div>
+
+    <!-- KPI Strip -->
+    <div class="kpi-strip">
+        <div class="kpi">
+            <b>APE YTD</b><br>
+            KPI Card
+        </div>
+
+        <div class="kpi">
+            <b>APE vs Target %</b><br>
+            KPI Card
+        </div>
+
+        <div class="kpi">
+            <b>Active Agent Count</b><br>
+            KPI Card
+        </div>
+
+        <div class="kpi">
+            <b>Persistency Rate</b><br>
+            KPI Card
+        </div>
+    </div>
+
+    <!-- Filter Area -->
+    <div class="filter-area">
+        <div class="filter">Year Slicer</div>
+        <div class="filter">Region Slicer</div>
+        <div class="filter">Channel Slicer</div>
+    </div>
+
+    <!-- Chart Area -->
+    <div class="chart-area">
+        <div class="chart">
+            Top 10 Agents by APE (Bar Chart)
+        </div>
+
+        <div class="chart">
+            APE vs Target by Month (Line Chart)
+        </div>
+    </div>
+
+</body>
+</html>
